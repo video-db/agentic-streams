@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
+<style>text{font-family:Arial,sans-serif;fill:#222}.small{font-size:12px}.title{font-size:22px;font-weight:bold}.legend{font-size:13px}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="480.0" y="28" text-anchor="middle" class="title">Intel intraday – Apr 1, 2026</text>
+<line x1="70" y1="435.0" x2="940" y2="435.0" stroke="#eee"/>
+<text x="62" y="439.0" text-anchor="end" class="small">46.26</text>
+<line x1="70" y1="357.0" x2="940" y2="357.0" stroke="#eee"/>
+<text x="62" y="361.0" text-anchor="end" class="small">46.79</text>
+<line x1="70" y1="279.0" x2="940" y2="279.0" stroke="#eee"/>
+<text x="62" y="283.0" text-anchor="end" class="small">47.32</text>
+<line x1="70" y1="201.0" x2="940" y2="201.0" stroke="#eee"/>
+<text x="62" y="205.0" text-anchor="end" class="small">47.86</text>
+<line x1="70" y1="123.0" x2="940" y2="123.0" stroke="#eee"/>
+<text x="62" y="127.0" text-anchor="end" class="small">48.39</text>
+<line x1="70" y1="45.0" x2="940" y2="45.0" stroke="#eee"/>
+<text x="62" y="49.0" text-anchor="end" class="small">48.92</text>
+<line x1="216.5" y1="45" x2="216.5" y2="435" stroke="#f3f3f3"/>
+<text x="216.5" y="465" text-anchor="middle" class="small">10:00</text>
+<line x1="509.5" y1="45" x2="509.5" y2="435" stroke="#f3f3f3"/>
+<text x="509.5" y="465" text-anchor="middle" class="small">11:00</text>
+<line x1="802.5" y1="45" x2="802.5" y2="435" stroke="#f3f3f3"/>
+<text x="802.5" y="465" text-anchor="middle" class="small">12:00</text>
+<line x1="70" y1="45" x2="70" y2="435" stroke="#999"/>
+<line x1="70" y1="435" x2="940" y2="435" stroke="#999"/>
+<polyline fill="none" stroke="#1f77b4" stroke-width="2.5" points="70.0,408.1 94.4,345.2 118.8,335.0 143.3,313.0 167.7,346.7 192.1,358.4 216.5,274.3 240.9,242.9 265.3,237.0 289.8,173.4 314.2,194.6 338.6,180.7 363.0,217.7 387.4,178.5 411.8,158.0 436.3,99.5 460.7,125.1 485.1,155.1 509.5,124.7 533.9,71.9 558.4,112.7 582.8,114.2 607.2,115.6 631.6,133.2 656.0,112.7 680.4,141.2 704.9,133.9 729.3,127.5 753.7,129.5 778.1,101.0 802.5,97.8 826.9,112.7 851.4,117.8 875.8,122.2 900.2,139.8 924.6,147.8 940.0,145.6"/>
+<line x1="70" y1="472" x2="88" y2="472" stroke="#1f77b4" stroke-width="3"/>
+<text x="94" y="476" class="legend">INTC</text>
+<text x="20" y="240.0" transform="rotate(-90 20 240.0)" class="small">Price ($)</text>
+</svg>

@@ -1,0 +1,45 @@
+{
+  "stream_url": "https://play.videodb.io/v1/1f5a1cd3-32f0-480b-9750-8c35c5a7ee3f.m3u8",
+  "player_url": null,
+  "scene_count": 14,
+  "approx_duration_seconds": 225.469387,
+  "slides": [
+    "01-title.png",
+    "02-market-overview.png",
+    "03-oil-rates.png",
+    "04-adp-proof.png",
+    "video:m-z-019d4a33-d58a-7051-a6a0-db3863493466",
+    "05-intel-proof.png",
+    "06-intel-chart.png",
+    "07-lly-proof.png",
+    "video:m-z-019d4a34-f6c8-7d13-820e-6d8f95161bde",
+    "08-lly-chart.png",
+    "09-nke-proof.png",
+    "video:m-z-019d4a36-533c-7f03-aa57-498336460792",
+    "10-nke-chart.png",
+    "11-closing.png"
+  ],
+  "clip_proofs": {
+    "adp": {
+      "video_id": "m-z-019d4a33-d58a-7051-a6a0-db3863493466",
+      "start": 0.0,
+      "duration": 24.0,
+      "title": "Private sector hiring totaled 62,000 in March, better than expected, ADP says",
+      "url": "https://www.youtube.com/watch?v=ttobXa_laZA"
+    },
+    "lly": {
+      "video_id": "m-z-019d4a34-f6c8-7d13-820e-6d8f95161bde",
+      "start": 36.45,
+      "duration": 24.0,
+      "title": "Eli Lilly\u2019s obesity pill led to around 12% weight loss in late-stage trial, paving way for approval",
+      "url": "https://www.youtube.com/watch?v=4e6mQljmzm4"
+    },
+    "nike": {
+      "video_id": "m-z-019d4a36-533c-7f03-aa57-498336460792",
+      "start": 37.97,
+      "duration": 24.0,
+      "title": "Nike earnings show North America strength, China weakness",
+      "url": "https://www.youtube.com/watch?v=mNvaVsMf9cA"
+    }
+  }
+}

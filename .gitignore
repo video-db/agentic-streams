@@ -1,0 +1,24 @@
+# Secrets
+.env
+*.env
+
+# Python / macOS
+__pycache__/
+*.pyc
+.DS_Store
+
+# Financial market analysis local day workspaces
+financial-market-analysis/data/
+
+# Financial market analysis generated artifacts
+financial-market-analysis/*/screenshots/*.png
+!financial-market-analysis/*/screenshots/.gitkeep
+financial-market-analysis/*/video_build/*
+!financial-market-analysis/*/video_build/.gitkeep
+financial-market-analysis/*/final/*
+!financial-market-analysis/*/final/.gitkeep
+
+# Optional local render outputs
+financial-market-analysis/*/*.mp4
+financial-market-analysis/*/*.mov
+financial-market-analysis/*/*.m3u8

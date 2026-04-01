@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
+<style>text{font-family:Arial,sans-serif;fill:#222}.small{font-size:12px}.title{font-size:22px;font-weight:bold}.legend{font-size:13px}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="480.0" y="28" text-anchor="middle" class="title">Oil and Rates – Apr 1, 2026 (intraday from open)</text>
+<line x1="70" y1="435.0" x2="940" y2="435.0" stroke="#eee"/>
+<text x="62" y="439.0" text-anchor="end" class="small">-1.18</text>
+<line x1="70" y1="357.0" x2="940" y2="357.0" stroke="#eee"/>
+<text x="62" y="361.0" text-anchor="end" class="small">-0.70</text>
+<line x1="70" y1="279.0" x2="940" y2="279.0" stroke="#eee"/>
+<text x="62" y="283.0" text-anchor="end" class="small">-0.22</text>
+<line x1="70" y1="201.0" x2="940" y2="201.0" stroke="#eee"/>
+<text x="62" y="205.0" text-anchor="end" class="small">0.26</text>
+<line x1="70" y1="123.0" x2="940" y2="123.0" stroke="#eee"/>
+<text x="62" y="127.0" text-anchor="end" class="small">0.74</text>
+<line x1="70" y1="45.0" x2="940" y2="45.0" stroke="#eee"/>
+<text x="62" y="49.0" text-anchor="end" class="small">1.22</text>
+<line x1="225.3" y1="45" x2="225.3" y2="435" stroke="#f3f3f3"/>
+<text x="225.3" y="465" text-anchor="middle" class="small">10:00</text>
+<line x1="535.8" y1="45" x2="535.8" y2="435" stroke="#f3f3f3"/>
+<text x="535.8" y="465" text-anchor="middle" class="small">11:00</text>
+<line x1="846.3" y1="45" x2="846.3" y2="435" stroke="#f3f3f3"/>
+<text x="846.3" y="465" text-anchor="middle" class="small">12:00</text>
+<line x1="70" y1="45" x2="70" y2="435" stroke="#999"/>
+<line x1="70" y1="435" x2="940" y2="435" stroke="#999"/>
+<polyline fill="none" stroke="#d62728" stroke-width="2.5" points="70.0,243.3 95.9,326.5 121.8,266.1 147.6,333.0 173.5,377.1 199.4,354.2 225.3,337.9 251.1,344.5 277.0,399.9 302.9,408.1 328.8,377.1 354.7,372.2 380.5,318.3 406.4,383.6 432.3,355.9 458.2,372.2 484.0,372.2 509.9,336.3 535.8,324.9 561.7,333.0 587.5,302.0 613.4,318.3 639.3,200.8 665.2,178.0 691.1,218.8 716.9,251.4 742.8,209.0 768.7,181.2 794.6,164.9 820.4,228.6 846.3,209.0 872.2,194.3 898.1,73.5 924.0,98.0 940.0,71.9"/>
+<polyline fill="none" stroke="#9467bd" stroke-width="2.5" points="70.0,243.3 95.9,269.6 121.8,262.1 147.6,269.6 173.5,247.0 199.4,247.0 225.3,213.2 251.1,216.9 277.0,243.3 302.9,247.0 328.8,247.0 354.7,254.6 380.5,262.1 406.4,277.1 432.3,269.6 458.2,292.2 484.0,299.7 509.9,307.2 535.8,322.3 561.7,337.3 587.5,322.3 613.4,337.3 639.3,322.3 665.2,322.3 691.1,314.8 716.9,329.8 742.8,322.3 768.7,307.2 794.6,307.2 820.4,314.8 846.3,299.7 872.2,299.7 898.1,284.7 914.0,284.7"/>
+<line x1="70" y1="472" x2="88" y2="472" stroke="#d62728" stroke-width="3"/>
+<text x="94" y="476" class="legend">WTI crude</text>
+<line x1="210" y1="472" x2="228" y2="472" stroke="#9467bd" stroke-width="3"/>
+<text x="234" y="476" class="legend">US 10Y yield</text>
+<text x="20" y="240.0" transform="rotate(-90 20 240.0)" class="small">% from open</text>
+</svg>

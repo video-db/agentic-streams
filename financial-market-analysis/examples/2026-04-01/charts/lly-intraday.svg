@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
+<style>text{font-family:Arial,sans-serif;fill:#222}.small{font-size:12px}.title{font-size:22px;font-weight:bold}.legend{font-size:13px}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="480.0" y="28" text-anchor="middle" class="title">Eli Lilly intraday – Apr 1, 2026</text>
+<line x1="70" y1="435.0" x2="940" y2="435.0" stroke="#eee"/>
+<text x="62" y="439.0" text-anchor="end" class="small">925.95</text>
+<line x1="70" y1="357.0" x2="940" y2="357.0" stroke="#eee"/>
+<text x="62" y="361.0" text-anchor="end" class="small">935.70</text>
+<line x1="70" y1="279.0" x2="940" y2="279.0" stroke="#eee"/>
+<text x="62" y="283.0" text-anchor="end" class="small">945.46</text>
+<line x1="70" y1="201.0" x2="940" y2="201.0" stroke="#eee"/>
+<text x="62" y="205.0" text-anchor="end" class="small">955.22</text>
+<line x1="70" y1="123.0" x2="940" y2="123.0" stroke="#eee"/>
+<text x="62" y="127.0" text-anchor="end" class="small">964.98</text>
+<line x1="70" y1="45.0" x2="940" y2="45.0" stroke="#eee"/>
+<text x="62" y="49.0" text-anchor="end" class="small">974.73</text>
+<line x1="216.5" y1="45" x2="216.5" y2="435" stroke="#f3f3f3"/>
+<text x="216.5" y="465" text-anchor="middle" class="small">10:00</text>
+<line x1="509.6" y1="45" x2="509.6" y2="435" stroke="#f3f3f3"/>
+<text x="509.6" y="465" text-anchor="middle" class="small">11:00</text>
+<line x1="802.6" y1="45" x2="802.6" y2="435" stroke="#f3f3f3"/>
+<text x="802.6" y="465" text-anchor="middle" class="small">12:00</text>
+<line x1="70" y1="45" x2="70" y2="435" stroke="#999"/>
+<line x1="70" y1="435" x2="940" y2="435" stroke="#999"/>
+<polyline fill="none" stroke="#2ca02c" stroke-width="2.5" points="70.0,382.2 94.4,373.1 118.8,366.0 143.3,373.9 167.7,366.6 192.1,358.3 216.5,363.3 240.9,374.6 265.4,408.1 289.8,406.2 314.2,395.5 338.6,381.0 363.0,372.7 387.5,362.8 411.9,373.0 436.3,365.0 460.7,359.0 485.1,358.1 509.6,353.3 534.0,344.5 558.4,349.4 582.8,354.9 607.2,291.6 631.7,236.7 656.1,190.7 680.5,194.8 704.9,162.3 729.3,130.8 753.8,101.8 778.2,97.6 802.6,71.9 827.0,139.0 851.4,130.9 875.9,170.8 900.3,178.8 924.7,199.2 940.0,206.6"/>
+<line x1="70" y1="472" x2="88" y2="472" stroke="#2ca02c" stroke-width="3"/>
+<text x="94" y="476" class="legend">LLY</text>
+<text x="20" y="240.0" transform="rotate(-90 20 240.0)" class="small">Price ($)</text>
+</svg>
