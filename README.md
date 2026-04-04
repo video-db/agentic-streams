@@ -1,14 +1,14 @@
 <div align="center">
 
-# 🎬 Agentic Video Creator
+# 🎬 Agentic Videos
 
-**AI-powered video creation workflows** — autonomous agents that research, gather assets, and produce professional videos.
+**Autonomous agents that deliver information in video** — research any topic, gather real-world assets, and produce broadcast-ready content.
 
 [![VideoDB](https://img.shields.io/badge/Powered_by-VideoDB-orange?style=for-the-badge)](https://videodb.io)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![GitHub stars](https://img.shields.io/github/stars/video-db/agentic-video-creator?style=for-the-badge)](https://github.com/video-db/agentic-video-creator)
+[![GitHub stars](https://img.shields.io/github/stars/video-db/agentic-videos?style=for-the-badge)](https://github.com/video-db/agentic-videos)
 
-[View Examples](#available-skills) • [Quick Start](#quick-start) • [Documentation](https://docs.videodb.io)
+[View Agents](#available-agents) • [Quick Start](#quick-start) • [Documentation](https://docs.videodb.io)
 
 </div>
 
@@ -16,18 +16,24 @@
 
 ## What Is This?
 
-A collection of **production-ready agentic skills** that autonomously create professional videos. Each skill follows a complete workflow: research → gather assets → generate scripts → assemble timeline → deliver video.
+Autonomous agents that **research, investigate, and deliver information as video**. Give an agent a topic—any topic—and it will:
+
+- Research across the web (news, social, video sources)
+- Gather real assets (clips, screenshots, charts)
+- Produce a professional video with voiceover
+
+**Video is the delivery medium. Research is the engine.**
 
 Built on [VideoDB](https://videodb.io) for video infrastructure and designed for Claude Code agents.
 
 ---
 
-## Available Skills
+## Available Agents
 
-| Skill | Description | Output | Demo |
+| Agent | Description | Output | Demo |
 |-------|-------------|--------|------|
-| **[news-digest](news-digest/)** | Multi-source news digest videos with YouTube clips, tweets, and article analysis | 3-4 min broadcast-style video | [▶ Watch](https://console.videodb.io/player?url=https://play.videodb.io/v1/43570285-1d6e-4548-86e6-294201d2418f.m3u8) |
-| **[financial-market-analysis](financial-market-analysis/)** | Proof-backed financial news recaps with charts, screenshots, and selected clips | Custom length market summary | [▶ Watch](https://console.videodb.io/player?url=https://play.videodb.io/v1/f37914dd-5239-4c10-aa2e-006f9095ac7c.m3u8) |
+| **[news-digest](news-digest/)** | Research any topic, gather multi-source evidence (YouTube, tweets, articles), deliver as broadcast-style video | 3-4 min video report | [▶ Watch](https://console.videodb.io/player?url=https://play.videodb.io/v1/43570285-1d6e-4548-86e6-294201d2418f.m3u8) |
+| **[financial-market-analysis](financial-market-analysis/)** | Investigate financial markets with charts, screenshots, and verified clips | Custom length market report | [▶ Watch](https://console.videodb.io/player?url=https://play.videodb.io/v1/f37914dd-5239-4c10-aa2e-006f9095ac7c.m3u8) |
 
 ---
 
@@ -52,33 +58,33 @@ Built on [VideoDB](https://videodb.io) for video infrastructure and designed for
 
 ### Usage
 
-Each skill has its own detailed README. Pick one and give the agent a topic:
+Each agent has its own detailed README. Pick one and give the agent a topic:
 
-**News Digest:**
+**News Digest** (works on any topic):
 ```
-Create a news digest video about "climate summit 2026"
+Create a video report about "climate summit 2026"
 ```
 
 **Financial Analysis:**
 ```
-Create a daily financial news video for 2026-04-01
+Create a market report for 2026-04-01
 ```
 
-The agent will autonomously research, gather assets, and deliver the final video.
+The agent will autonomously research the topic, gather assets, and deliver the video.
 
 ---
 
 ## How It Works
 
-Each agentic skill follows this pattern:
+Each agent follows this pattern:
 
-1. **Research** — Real web research via browser-use (no hallucinated data)
-2. **Asset Collection** — YouTube videos, tweets, article screenshots, charts
-3. **Script Writing** — Professional voiceover scripts with TTS generation
-4. **Timeline Assembly** — 5-track composition with VideoDB Editor
-5. **Delivery** — Stream URL + metadata
+1. **Research** — Deep web research via browser-use (no hallucinated data)
+2. **Asset Gathering** — YouTube clips, tweets, article screenshots, charts
+3. **Script Generation** — Professional voiceover scripts with TTS
+4. **Video Assembly** — Multi-track composition with VideoDB Editor
+5. **Delivery** — Stream URL ready to share
 
-**Output:** Professional videos ready to publish.
+**Input:** A topic. **Output:** A video report.
 
 ---
 
@@ -96,29 +102,26 @@ Each agentic skill follows this pattern:
 
 ## Key Features
 
-### 🔍 Real Web Research
-Every fact, URL, and asset comes from actual web sources. Browser-use skill handles all internet access. No hallucinated data.
+### 🔍 Deep Research
+Every fact, URL, and asset comes from real web sources. Browser-use handles all internet access. No hallucinated data.
 
-### 🎥 Professional Quality
-- Broadcast-style text overlays
-- Multi-track timeline composition
-- Background music and voiceovers
-- Clean typography and transitions
+### 📺 Video as Delivery
+Information delivered as professional video—broadcast-style overlays, multi-track composition, voiceovers, and clean typography.
 
 ### 🤖 Fully Autonomous
 Give the agent a topic → get a finished video. No manual intervention required.
 
-### 📊 Proof-Backed
-Every claim is sourced. Every asset is verified. Perfect for news, finance, and compliance use cases.
+### 📊 Evidence-Based
+Every claim is sourced. Every asset is verified. Perfect for news, research, finance, and compliance use cases.
 
 ---
 
 ## Philosophy
 
-Each skill is:
+Each agent is:
 - **Self-contained** — All dependencies documented
-- **Reproducible** — Same inputs → same outputs
-- **Agent-friendly** — Clear instructions, no ambiguity
+- **Reproducible** — Same topic → consistent quality
+- **Autonomous** — Clear instructions, no hand-holding
 - **Production-ready** — Battle-tested workflows
 
 ---
@@ -127,17 +130,17 @@ Each skill is:
 
 - Python 3.8+
 - VideoDB API key ([get free](https://console.videodb.io))
-- VideoDB skill and Python SDK
+- VideoDB SDK and skill
 - Claude Code or compatible agent framework
 
 ---
 
 ## Contributing
 
-Contributions welcome! To add a new skill:
+Contributions welcome! To add a new agent:
 
 1. Create a new folder with `SKILL.md`, `AGENTS.md`, and `README.md`
-2. Follow the structure of existing skills
+2. Follow the structure of existing agents
 3. Include working examples
 4. Submit a PR
 
@@ -147,7 +150,7 @@ Contributions welcome! To add a new skill:
 ## Community & Support
 
 - **Docs**: [docs.videodb.io](https://docs.videodb.io)
-- **Issues**: [GitHub Issues](https://github.com/video-db/agentic-video-creator/issues)
+- **Issues**: [GitHub Issues](https://github.com/video-db/agentic-videos/issues)
 - **Discord**: [Join community](https://discord.gg/py9P639jGz)
 - **Console**: [Get API key](https://console.videodb.io)
 
