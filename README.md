@@ -2,7 +2,7 @@
 
 # 🎬 Agentic Streams
 
-**Take back control of content.**  
+**Take back control of your content.**  
 Agents research the internet, filter noise, and stream you clean video briefings.
 
 [![VideoDB](https://img.shields.io/badge/Powered_by-VideoDB-orange?style=for-the-badge)](https://videodb.io)
@@ -13,16 +13,12 @@ Agents research the internet, filter noise, and stream you clean video briefings
 
 </div>
 
----
-
-## What Is This?
-
-Autonomous agents that:
-- crawl the internet (news, social, video sources incl. Youtube)
-- filter bias, noise, and low-signal content
-- gather real assets (clips, screenshots, charts)
-- generate clean, structured video briefings
-- video stream them directly to you
+### Autonomous agents that:
+- Crawl the internet (news, social, video sources incl. Youtube)
+- Filter bias, noise, and low-signal content
+- Gather real assets (video clips, screenshots, charts)
+- Generate clean, structured **video streams** with voiceovers and music.
+- Stream them directly to you.
 
 👉 No feeds  
 👉 No scrolling  
@@ -63,6 +59,7 @@ Built on [VideoDB](https://videodb.io), enabling agents to see, hear, and unders
    export VIDEO_DB_API_KEY=your_key_here
    ```
 
+
 ### How It Works
 
 Each agent has its own detailed README. Pick one and give the agent a topic:
@@ -79,73 +76,52 @@ Create a market report for 2026-04-01
 The agent will autonomously research the topic, gather assets, and deliver the video.
 
 ---
+### Create your own agents
 
 Each agent follows this pattern:
 
 1. **Research** — Deep web research via browser-use (no hallucinated data)
 2. **Asset Gathering** — YouTube clips, tweets, article screenshots, charts
 3. **Script Generation** — Professional voiceover scripts with TTS
-4. **Video Assembly** — Multi-track composition with VideoDB Editor
-5. **Delivery** — Stream URL ready to share
+4. **Video Assembly** — Multi-track composition with VideoDB
+5. **Delivery** — Stream URL ready to play and share
 
 **Input:** A topic. **Output:** video stream.
+
+
+### To add a new agent:
+1. Create a new folder with `SKILL.md`, `AGENTS.md`, and `README.md`
+2. Follow the structure of existing agents
+3. Include working examples
+
+Create your own personalized agent that deliver content according to your preferences. 
+
 
 ---
 
 ## More Example Outputs
 
-### Content Creator
 **r/ClaudeAI Weekly Recap** — Self-reviewed video briefing covering top posts, memes, and drama  
 [▶ Watch Video](https://console.videodb.io/player?url=https://play.videodb.io/v1/a43d5463-a39d-4aac-994f-abdfb5b3bf2d.m3u8)
 
-### News Digest
 **Iran War 2026** — Multi-source analysis with Al Jazeera, BBC, CNN  
 [▶ Watch Video](https://console.videodb.io/player?url=https://play.videodb.io/v1/43570285-1d6e-4548-86e6-294201d2418f.m3u8)
 
-### Financial Market Analysis
 **Daily Market Recap** — Proof-backed financial news with charts, screenshots, and clips  
 [▶ Watch Video](https://console.videodb.io/player?url=https://play.videodb.io/v1/f37914dd-5239-4c10-aa2e-006f9095ac7c.m3u8)
-
-
-### Key Features
-
-Create your own personalized agent that deliver content according to your preferences. 
-
-### 🔍 Deep Research
-Every fact, URL, and asset comes from real web sources. Browser-use handles all internet access. No hallucinated data.
-
-### 📺 Video Stream Delivery
-Information delivered as professional video—broadcast-style overlays, multi-track composition, voiceovers, and clean typography.
-
-### 🤖 Fully Autonomous
-Give the agent a topic → get a finished video. No manual intervention required.
-
-### 📊 Evidence-Based
-Every claim is sourced. Every asset is verified. Perfect for news, research, finance, and compliance use cases.
 
 ---
 
 ## Philosophy
 
 Each agent is:
-- **Self-contained** — All dependencies documented
-- **Reproducible** — Same topic → consistent quality
-- **Autonomous** — Clear instructions, no hand-holding
-- **Production-ready** — Battle-tested workflows
 
-
-
-## Contributing
-
-Contributions welcome! To add a new agent:
-
-1. Create a new folder with `SKILL.md`, `AGENTS.md`, and `README.md`
-2. Follow the structure of existing agents
-3. Include working examples
-4. Submit a PR
-
+- **Self-contained** — All dependencies are documented. Every fact, URL, and asset comes from real web sources via browser-based research. No hallucinated data.  
+- **Reproducible** — Same topic leads to consistent, high-quality outputs.  
+- **Fully autonomous** — Give the agent a topic and get a finished video. No manual intervention required.  
+- **Evidence-based** — Every claim is sourced. Every asset is verified. Built for news, research, finance, and compliance workflows.  
+- **Production-ready** — Reliable, battle-tested pipelines designed for real-world use.  
 ---
-
 
 ## Community & Support
 
