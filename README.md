@@ -107,8 +107,17 @@ Create your own personalized agent that deliver content according to your prefer
 **Iran War 2026** — Multi-source analysis with Al Jazeera, BBC, CNN  
 [▶ Watch Video](https://player.videodb.io/watch?v=https://play.videodb.io/v1/43570285-1d6e-4548-86e6-294201d2418f.m3u8)
 
-**Daily Market Recap** — Proof-backed financial news with charts, screenshots, and clips  
+**Daily Market Recap** — Proof-backed financial news with charts, screenshots, and clips
 [▶ Watch Video](https://player.videodb.io/watch?v=https://play.videodb.io/v1/f37914dd-5239-4c10-aa2e-006f9095ac7c.m3u8)
+
+**Top 5 GitHub Repos** — Daily top 5 GitHub repositories
+[▶ Watch Video](https://console.videodb.io/player?url=https://play.videodb.io/v1/a02e172f-399f-4516-b18b-55055743f93b.m3u8)
+
+**Medical Term Explainer** — AI-powered medical terminology explainer
+[▶ Watch Video](https://console.videodb.io/player?url=https://play.videodb.io/v1/ab28a096-c72c-4376-b44a-647001c5284c.m3u8)
+
+**Karpathy on Knowledge Bases** — Karpathy discussing knowledge bases
+[▶ Watch Video](https://console.videodb.io/player?url=https://play.videodb.io/v1/ccd210be-957f-4f57-8bc9-64cffcf5b22b.m3u8)
 
 ---
 
