@@ -280,7 +280,7 @@ A successful run produces:
 
 See `outputs/` folder for complete agent-generated examples with full registry structure and asset organization.
 
-**Example output:** [Iran War 2026 Video](https://console.videodb.io/player?url=https://play.videodb.io/v1/43570285-1d6e-4548-86e6-294201d2418f.m3u8)
+**Example output:** [Iran War 2026 Video](https://player.videodb.io/watch?v=https://play.videodb.io/v1/43570285-1d6e-4548-86e6-294201d2418f.m3u8)
 
 ## Reference docs
 

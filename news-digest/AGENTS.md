@@ -458,6 +458,8 @@ Output is saved to `outputs/<topic-slug>/output/output.json`:
 }
 ```
 
+**Note:** The code outputs console URLs. Convert to player URLs (`https://player.videodb.io/watch?v=...`) manually when sharing publicly.
+
 **If the build fails:**
 - `Clip duration greater than audio length` → Your `registry.json` duration is wrong. Re-check `voice.length` for that audio ID.
 - `Invalid request` → Check that all asset IDs in registry.json are valid and uploaded.

@@ -2,7 +2,7 @@
 
 This skill is designed so an agentic coding tool can reproduce the workflow with minimal manual work.
 
-[![Watch Demo](https://img.shields.io/badge/▶_Watch-Demo_Video-blue?style=for-the-badge)](https://console.videodb.io/player?url=https://play.videodb.io/v1/f37914dd-5239-4c10-aa2e-006f9095ac7c.m3u8)
+[![Watch Demo](https://img.shields.io/badge/▶_Watch-Demo_Video-blue?style=for-the-badge)](https://player.videodb.io/watch?v=https://play.videodb.io/v1/f37914dd-5239-4c10-aa2e-006f9095ac7c.m3u8)
 
 Build daily financial news videos backed by:
 - article proof

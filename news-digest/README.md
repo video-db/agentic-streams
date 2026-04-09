@@ -2,7 +2,7 @@
 
 **Autonomous multi-source news video creator** — give it a topic, get a professional 3-4 minute broadcast-style video.
 
-[![Watch Demo](https://img.shields.io/badge/▶_Watch-Demo_Video-blue?style=for-the-badge)](https://console.videodb.io/player?url=https://play.videodb.io/v1/43570285-1d6e-4548-86e6-294201d2418f.m3u8)
+[![Watch Demo](https://img.shields.io/badge/▶_Watch-Demo_Video-blue?style=for-the-badge)](https://player.videodb.io/watch?v=https://play.videodb.io/v1/43570285-1d6e-4548-86e6-294201d2418f.m3u8)
 
 ---
 
@@ -183,7 +183,7 @@ Every output includes:
 ## Example Output
 
 **Iran War 2026** — Multi-source analysis with Al Jazeera, BBC, CNN clips:  
-[▶ Watch Video](https://console.videodb.io/player?url=https://play.videodb.io/v1/43570285-1d6e-4548-86e6-294201d2418f.m3u8)
+[▶ Watch Video](https://player.videodb.io/watch?v=https://play.videodb.io/v1/43570285-1d6e-4548-86e6-294201d2418f.m3u8)
 
 For complete registry structure and asset organization, see agent-generated runs in `outputs/` folder.
 

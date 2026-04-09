@@ -458,7 +458,8 @@ Minimize regeneration work — fix only what's needed:
 
 When the review passes or you've hit the iteration limit:
 
-1. Print the **final stream URL** and the **player URL** (`https://console.videodb.io/player?url={STREAM_URL}`)
+1. Print the **final stream URL** and the **console player URL** (`https://console.videodb.io/player?url={STREAM_URL}`)
+   - For public sharing, manually convert to: `https://player.videodb.io/watch?v={STREAM_URL}`
 2. Print a **segment breakdown** with timestamps:
    ```
    00:00 - 00:08  Hook: [visual_type] — "opening narration preview..."

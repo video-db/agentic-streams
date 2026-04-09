@@ -30,7 +30,7 @@ Primary output stream for this example day:
 - `https://play.videodb.io/v1/f37914dd-5239-4c10-aa2e-006f9095ac7c.m3u8`
 
 Player:
-- `https://console.videodb.io/player?url=https://play.videodb.io/v1/f37914dd-5239-4c10-aa2e-006f9095ac7c.m3u8`
+- `https://player.videodb.io/watch?v=https://play.videodb.io/v1/f37914dd-5239-4c10-aa2e-006f9095ac7c.m3u8`
 
 ## Why this structure
 

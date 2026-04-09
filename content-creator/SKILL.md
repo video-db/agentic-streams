@@ -151,6 +151,8 @@ See [reference/composition.md](reference/composition.md) for:
 
 Present the stream URL to the user: `https://console.videodb.io/player?url={STREAM_URL}`
 
+**Note:** For public sharing, convert console URLs to player URLs: `https://player.videodb.io/watch?v={STREAM_URL}`
+
 ### Phase 5: Self-Review (mandatory)
 
 **Always runs at least once.** Upload the draft, index it (time-based scene extraction at 1-second intervals + spoken word indexing), and read back what's actually in the video. Build an intended timeline from your composition data and compare it second-by-second against the scene descriptions. Then critique the result — not just for bugs, but as a director making creative calls.

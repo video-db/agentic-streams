@@ -2,7 +2,7 @@
 
 **Autonomous video briefing agent that reviews its own output using VideoDB's See + Understand capabilities** — research any topic, produce a broadcast-quality video, then verify visual-narration alignment frame by frame before delivering.
 
-[![Watch Demo](https://img.shields.io/badge/▶_Watch-Demo_Video-blue?style=for-the-badge)](https://console.videodb.io/player?url=https://play.videodb.io/v1/a43d5463-a39d-4aac-994f-abdfb5b3bf2d.m3u8)
+[![Watch Demo](https://img.shields.io/badge/▶_Watch-Demo_Video-blue?style=for-the-badge)](https://player.videodb.io/watch?v=https://play.videodb.io/v1/a43d5463-a39d-4aac-994f-abdfb5b3bf2d.m3u8)
 
 ---
 
@@ -155,7 +155,7 @@ content-creator/
 ## Example Output
 
 **r/ClaudeAI Weekly Recap** — Top posts, memes, drama, and builds from the Claude subreddit:
-[▶ Watch Video](https://console.videodb.io/player?url=https://play.videodb.io/v1/a43d5463-a39d-4aac-994f-abdfb5b3bf2d.m3u8)
+[▶ Watch Video](https://player.videodb.io/watch?v=https://play.videodb.io/v1/a43d5463-a39d-4aac-994f-abdfb5b3bf2d.m3u8)
 
 ```
 00:00 - 00:16  Hook (motion_scene) — "11,400 upvotes for teaching Claude to talk like a caveman"
