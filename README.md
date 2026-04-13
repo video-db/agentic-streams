@@ -34,6 +34,7 @@ Built on [VideoDB](https://videodb.io) for video infrastructure and designed for
 |-------|-------------|--------|------|
 | **[news-digest](news-digest/)** | Research any topic, gather multi-source evidence (YouTube, tweets, articles), deliver as broadcast-style video | 3-4 min video report | [▶ Watch](https://console.videodb.io/player?url=https://play.videodb.io/v1/43570285-1d6e-4548-86e6-294201d2418f.m3u8) |
 | **[financial-market-analysis](financial-market-analysis/)** | Investigate financial markets with charts, screenshots, and verified clips | Custom length market report | [▶ Watch](https://console.videodb.io/player?url=https://play.videodb.io/v1/f37914dd-5239-4c10-aa2e-006f9095ac7c.m3u8) |
+| **[medical-explainer](medical-explainer/)** | Explain medical terms and procedures with trusted sources, illustrations, and explainer clips | 3-4 min explainer video | Coming soon |
 
 ---
 
