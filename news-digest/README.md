@@ -133,10 +133,10 @@ Every news digest follows this deterministic structure:
 
 "Option C" design:
 - Font: Clear Sans, 80-96pt, white (#FFFFFF)
-- Background: Blue box (#1a3a5c, 90% opacity), auto-sized to text length
+- Background: Blue box (#1a3a5c, 90% opacity), auto-sized within the 1600×500 safe area
 - Border: White 2px
 - Shadow: Black 3px offset
-- **Auto-wrapping:** Lines longer than 35 chars wrap at word boundaries
+- **Safe-area fitting:** Text wraps from its rendered pixel budget with 80px side padding; oversized blocks automatically reduce font size instead of clipping
 
 ### Asset Requirements
 

@@ -16,6 +16,7 @@ Structure: title (4s) → intro → 3 news clips → 3 tweets → 2 articles →
 """
 
 import json
+import math
 import sys
 from pathlib import Path
 
@@ -43,50 +44,106 @@ FADE_IN = Transition(in_="fade", duration=0.5)
 FADE_OUT = Transition(out="fade", duration=0.5)
 
 
+TEXT_MAX_WIDTH = 1600   # 160px horizontal safe area on a 1920px frame
+TEXT_MAX_HEIGHT = 500
+TEXT_MIN_WIDTH = 400
+TEXT_MIN_HEIGHT = 100
+TEXT_PADDING_X = 80
+TEXT_PADDING_Y = 40
+# Use one full em per character as a conservative bound. This deliberately
+# overestimates typical Clear Sans glyphs so wide uppercase titles stay padded.
+CHAR_WIDTH_FACTOR = 1.0
+LINE_HEIGHT_FACTOR = 1.3
+
+
+def _wrap_line(line, max_chars):
+    """Wrap one line at word boundaries, splitting an oversized token if needed."""
+    if not line:
+        return [""]
+
+    wrapped = []
+    current = ""
+    for word in line.split():
+        chunks = [word[i:i + max_chars] for i in range(0, len(word), max_chars)]
+        for chunk in chunks:
+            candidate = f"{current} {chunk}".strip()
+            if len(candidate) <= max_chars:
+                current = candidate
+            else:
+                if current:
+                    wrapped.append(current)
+                current = chunk
+    if current:
+        wrapped.append(current)
+    return wrapped
+
+
+def _layout_text_box(
+    text,
+    size,
+    width=None,
+    height=None,
+    max_chars_per_line=35,
+):
+    """Return wrapped text and dimensions that fit inside the frame-safe box."""
+    if max_chars_per_line < 1:
+        raise ValueError("max_chars_per_line must be at least 1")
+
+    box_width_limit = min(width or TEXT_MAX_WIDTH, TEXT_MAX_WIDTH)
+    box_height_limit = min(height or TEXT_MAX_HEIGHT, TEXT_MAX_HEIGHT)
+    fitted_size = size
+
+    while True:
+        usable_width = max(1, box_width_limit - 2 * TEXT_PADDING_X)
+        safe_chars = max(
+            1,
+            math.floor(usable_width / (fitted_size * CHAR_WIDTH_FACTOR)),
+        )
+        wrap_at = min(max_chars_per_line, safe_chars)
+        wrapped_lines = []
+        for source_line in text.split("\n"):
+            wrapped_lines.extend(_wrap_line(source_line, wrap_at))
+
+        line_count = len(wrapped_lines)
+        required_height = math.ceil(
+            line_count * fitted_size * LINE_HEIGHT_FACTOR + 2 * TEXT_PADDING_Y
+        )
+        if required_height <= box_height_limit:
+            break
+        if fitted_size <= 32:
+            raise ValueError("text is too long to fit inside the safe text box")
+        fitted_size -= 2
+
+    longest_line = max((len(line) for line in wrapped_lines), default=0)
+    required_width = math.ceil(
+        longest_line * fitted_size * CHAR_WIDTH_FACTOR + 2 * TEXT_PADDING_X
+    )
+    box_width = min(width, TEXT_MAX_WIDTH) if width else max(
+        TEXT_MIN_WIDTH,
+        min(required_width, TEXT_MAX_WIDTH),
+    )
+    box_height = min(height, TEXT_MAX_HEIGHT) if height else max(
+        TEXT_MIN_HEIGHT,
+        min(required_height, TEXT_MAX_HEIGHT),
+    )
+
+    return "\n".join(wrapped_lines), fitted_size, box_width, box_height
+
+
 def make_text(text, size=88, width=None, height=None, max_chars_per_line=35):
     """Option C style: white text, wide blue box, white border, shadow.
 
-    Auto-sizes background box to fit text if width/height not specified.
-    Long single lines are automatically wrapped to max_chars_per_line.
-
-    Formula: width ≈ longest_line × size × 0.65 + 40px padding
-             height ≈ line_count × size × 1.3 + 30px padding
+    Text is wrapped against the actual frame-safe pixel width, not only a fixed
+    character count. The font is reduced when necessary to keep every line and
+    its padding inside the maximum box height.
     """
-    # Auto-wrap long lines
-    lines = text.split('\n')
-    wrapped_lines = []
-    for line in lines:
-        if len(line) > max_chars_per_line:
-            # Wrap long line into chunks
-            words = line.split(' ')
-            current_line = []
-            for word in words:
-                test_line = ' '.join(current_line + [word])
-                if len(test_line) <= max_chars_per_line:
-                    current_line.append(word)
-                else:
-                    if current_line:
-                        wrapped_lines.append(' '.join(current_line))
-                    current_line = [word]
-            if current_line:
-                wrapped_lines.append(' '.join(current_line))
-        else:
-            wrapped_lines.append(line)
-
-    text = '\n'.join(wrapped_lines)
-
-    if width is None:
-        lines = text.split('\n')
-        longest_line = max(len(line) for line in lines)
-        width = int(longest_line * size * 0.65 + 40)
-        width = max(width, 400)  # minimum 400px
-        width = min(width, 1600)  # maximum 1600px (safe for 1920px screen)
-
-    if height is None:
-        line_count = text.count('\n') + 1
-        height = int(line_count * size * 1.3 + 30)
-        height = max(height, 100)  # minimum 100px
-        height = min(height, 500)  # maximum 500px (allow taller for wrapped text)
+    text, size, width, height = _layout_text_box(
+        text,
+        size,
+        width=width,
+        height=height,
+        max_chars_per_line=max_chars_per_line,
+    )
 
     return TextAsset(
         text=text,
@@ -176,7 +233,7 @@ def build_video(registry_path: str) -> dict:
     text_track.add_clip(t, Clip(
         asset=make_text(
             reg["topic"].upper() + "\nNEWS DIGEST",
-            size=96,  # auto-sizes width/height based on text length
+            size=96,
         ),
         duration=TITLE_DUR,
         position=Position.center,
