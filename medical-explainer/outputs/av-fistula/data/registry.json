@@ -1,0 +1,86 @@
+{
+  "term": "AV Fistula",
+  "created": "2026-04-06",
+  "background": {
+    "image_id": "img-z-019d628c-80b4-7f72-860b-9f6b7afdca7d",
+    "music_id": "a-z-019d628c-afe0-7413-8455-99a1516ca347",
+    "music_duration": 135.026939
+  },
+  "videos": {
+    "video_1": {
+      "label": "BOSTON CHILDREN'S HOSPITAL",
+      "source_url": "https://www.youtube.com/watch?v=0pSI0s026vM",
+      "video_id": "m-z-019d6279-b22d-78e3-837e-1221ce268c27",
+      "clip_start": 0.0,
+      "clip_duration": 25.0
+    },
+    "video_2": {
+      "label": "KIMS HOSPITALS",
+      "source_url": "https://www.youtube.com/watch?v=BQOWT8cDbWo",
+      "video_id": "m-z-019d627c-94ea-7fc1-a904-4aa6486bacf5",
+      "clip_start": 0.0,
+      "clip_duration": 25.0
+    }
+  },
+  "illustrations": {
+    "illustration_1": { "image_id": "img-z-019d628c-d746-7ed1-8db3-d7dd268001aa" },
+    "illustration_2": { "image_id": "img-z-019d628c-fa50-7b12-aad6-d24a4a6ebd54" }
+  },
+  "keyfacts": {
+    "keyfact_1": { "image_id": "img-z-019d628d-1f8f-70d1-afcd-e5f460564981" },
+    "keyfact_2": { "image_id": "img-z-019d628d-445e-7cf0-adb3-11bfa372b55e" },
+    "keyfact_3": { "image_id": "img-z-019d628d-6aeb-7021-b3f3-58070bce48a1" }
+  },
+  "voiceovers": {
+    "intro": {
+      "id": "a-z-019d628e-4b6c-7d02-a2cc-3882eb945c94",
+      "duration": 26.749388,
+      "script": "An arteriovenous fistula, or AV fistula, is an abnormal connection between an artery and a vein. Normally, blood flows from arteries through tiny capillaries before reaching the veins. But with an AV fistula, blood bypasses those capillaries entirely. This condition can occur naturally from injury or genetic conditions, or it can be surgically created to provide reliable access for kidney dialysis."
+    },
+    "hook_1": {
+      "id": "a-z-019d628e-7a0e-77f3-bb69-ea05bb3462d9",
+      "duration": 9.978776,
+      "script": "In this explanation from Boston Children's Hospital, doctors describe what an arteriovenous fistula is and how it differs from other blood vessel conditions."
+    },
+    "hook_2": {
+      "id": "a-z-019d628e-a0cd-7911-be50-e65c7cb6c7a2",
+      "duration": 10.266122,
+      "script": "This overview from a kidney specialist at KIMS Hospitals explains why AV fistulas are created for dialysis patients and how they serve as a lifeline for treatment."
+    },
+    "illustration_transition": {
+      "id": "a-z-019d628e-cbc1-7c30-98f3-13467c988ac0",
+      "duration": 4.310204,
+      "script": "Let's take a closer look at how an arteriovenous fistula works visually."
+    },
+    "illustration_1": {
+      "id": "a-z-019d628e-ef0e-7241-b9ac-89af05d48422",
+      "duration": 21.733878,
+      "script": "This diagram from the Mayo Clinic shows the basic structure of an AV fistula. On the left, you can see the artery, shown in red, and on the right, the vein, shown in blue. The fistula creates a direct connection between them, causing the vein to stretch and dilate over time due to the higher pressure of arterial blood flowing directly into it."
+    },
+    "illustration_2": {
+      "id": "a-z-019d628f-24aa-7a13-84a7-4961f1c70d2f",
+      "duration": 22.386939,
+      "script": "If left untreated, a large AV fistula can lead to serious complications. The most dangerous is heart failure, as the heart must pump harder to compensate for the altered blood flow. Other risks include blood clots that may cause deep vein thrombosis or pulmonary embolism, leg pain from reduced blood flow to muscles, and internal bleeding in the digestive tract."
+    },
+    "keyfacts_transition": {
+      "id": "a-z-019d628f-4304-7b82-b707-40777e14d413",
+      "duration": 4.675918,
+      "script": "Here are some important facts everyone should know about arteriovenous fistulas."
+    },
+    "keyfact_1": {
+      "id": "a-z-019d628f-6141-77c0-a9a6-7e2ab617221d",
+      "duration": 16.013061,
+      "script": "AV fistulas can range from small and symptom-free to large and life-threatening. Common symptoms of larger fistulas include purplish bulging veins similar to varicose veins, swelling in the arms or legs, decreased blood pressure, and persistent fatigue."
+    },
+    "keyfact_2": {
+      "id": "a-z-019d628f-8978-7492-982c-2ed92198b5d1",
+      "duration": 22.93551,
+      "script": "Several factors increase the risk of developing an AV fistula. These include older age, being female, having undergone cardiac catheterization, taking blood thinners, having high blood pressure, and increased body mass index. Genetic conditions like hereditary hemorrhagic telangiectasia can also cause pulmonary AV fistulas."
+    },
+    "keyfact_3": {
+      "id": "a-z-019d628f-b469-7b30-85f8-f0b61a921cfc",
+      "duration": 22.047347,
+      "script": "If you notice bulging veins, unexplained swelling, or persistent fatigue, it is important to see your healthcare provider promptly. Early detection of an AV fistula can make treatment easier and reduce the risk of serious complications like blood clots or heart failure. Always consult a qualified medical professional for diagnosis and treatment."
+    }
+  }
+}
