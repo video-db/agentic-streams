@@ -49,6 +49,7 @@ Built on [VideoDB](https://videodb.io), enabling agents to see, hear, and unders
 | Agent | Description | Output | Demo |
 |-------|-------------|--------|------|
 | **[content-creator](content-creator/)** | Research any topic, produce a video briefing, then self-review using VideoDB's See + Understand to verify visual-narration alignment frame by frame | 1-2 min video briefing | [▶ Watch](https://player.videodb.io/watch?v=https://play.videodb.io/v1/a43d5463-a39d-4aac-994f-abdfb5b3bf2d.m3u8) |
+| **[cinema-management](cinema-management/)** | Search an indexed film with Twelve Labs, frame selected scenes as management lessons, and assemble a narrated training video with VideoDB | 1-2 min management training video | [▶ Watch](https://console.videodb.io/player?url=https://play.videodb.io/v1/39b00ef8-9fbf-477a-b3b4-09ed69f62f6a.m3u8) |
 | **[news-digest](news-digest/)** | Research any topic, gather multi-source evidence (YouTube, tweets, articles), deliver as broadcast-style video | 3-4 min video report | [▶ Watch](https://player.videodb.io/watch?v=https://play.videodb.io/v1/43570285-1d6e-4548-86e6-294201d2418f.m3u8) |
 | **[financial-market-analysis](financial-market-analysis/)** | Investigate financial markets with charts, screenshots, and verified clips | Custom length market report | [▶ Watch](https://player.videodb.io/watch?v=https://play.videodb.io/v1/f37914dd-5239-4c10-aa2e-006f9095ac7c.m3u8) |
 
@@ -78,6 +79,11 @@ Create a video report about "climate summit 2026"
 **Financial Analysis:**
 ```
 Create a market report for 2026-04-01
+```
+
+**Cinema Management:**
+```
+Create a management lesson from The Caine Mutiny on authority and blind obedience
 ```
 The agent will autonomously research the topic, gather assets, and deliver the video.
 
